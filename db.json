@@ -1,0 +1,52 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "img": "https://sberbusiness.live/uploads/media/post_detail/0001/16/thumb_15175_post_detail_tablet.png",
+      "name": "tovar1",
+      "price": 200,
+      "article": "Т1",
+      "available": false
+    },
+    {
+      "id": 2,
+      "img": "https://sberbusiness.live/uploads/media/post_detail/0001/16/thumb_15175_post_detail_tablet.png",
+      "name": "tovar2",
+      "price": 300,
+      "article": "Т2",
+      "available": true
+    },
+    {
+      "id": 3,
+      "img": "https://sberbusiness.live/uploads/media/post_detail/0001/16/thumb_15175_post_detail_tablet.png",
+      "name": "tovar3",
+      "price": 150,
+      "article": "ТЗ",
+      "available": true
+    },
+    {
+      "id": 4,
+      "img": "https://sberbusiness.live/uploads/media/post_detail/0001/16/thumb_15175_post_detail_tablet.png",
+      "name": "tovar4",
+      "price": 3000,
+      "article": "Т4",
+      "available": false
+    },
+    {
+      "id": 5,
+      "img": "https://sberbusiness.live/uploads/media/post_detail/0001/16/thumb_15175_post_detail_tablet.png",
+      "name": "tovar5",
+      "price": 123,
+      "article": "Т5",
+      "available": true
+    },
+    {
+      "id": 6,
+      "img": "https://sberbusiness.live/uploads/media/post_detail/0001/16/thumb_15175_post_detail_tablet.png",
+      "name": "tovar6",
+      "price": 450,
+      "article": "Т6",
+      "available": false
+    }
+  ]
+}
