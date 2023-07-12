@@ -33,7 +33,6 @@
             ]), 
             addToCart(data) {
                 this.ADD_TO_CART(data)
-                // this.SET_CART(data);
                 console.log(data)
             }
         },

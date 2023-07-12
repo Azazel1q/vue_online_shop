@@ -6,7 +6,8 @@
     </div>
     <v-catalog/>
     <v-cart
-    v-if="CART?.length > 0"
+        
+        :cart_data="CART"
     />
 </template>
 

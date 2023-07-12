@@ -4,7 +4,7 @@
         <div class="card__content">
           <p class="card__title">Название: {{ product_data.name }}</p>
           <p class="card__description">Стоимость: {{ product_data.price }}</p>
-          <button class="btn-primary" @click="addToCart">Добавить в корзину</button>
+          <button class="btn-primary" @click="addToCart, addToQuant">Добавить в корзину</button>
         </div>
     </div>
 </template>
@@ -23,7 +23,7 @@
           addToCart() {
             this.$emit('addToCart', this.product_data)
           }
-        }
+        },
     }
 </script>
 

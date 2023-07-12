@@ -3,12 +3,10 @@ import { createStore } from 'vuex';
 
 
 const store = createStore({
-    state: {
-        return: {
-            products: [],
-            cart: [],
-        }
-    },
+    state: () => ({
+        cart: [],
+        products: [],
+    }),
     mutations: {
         SET_PRODUCTS_TO_STATE: (state, products) => {
             state.products = products;
@@ -33,6 +31,7 @@ const store = createStore({
         },
         ADD_TO_CART({commit}, product) {
             commit('SET_CART', product);
+            return product;
         }
     },
     getters: {
